@@ -1,0 +1,7 @@
+# Files
+*.key
+*.key.pub
+package-lock.json
+
+# Folders
+node_modules
