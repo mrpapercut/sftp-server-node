@@ -2,7 +2,7 @@
 *.key
 *.key.pub
 package-lock.json
-uploads/*
+upload/*
 
 # Folders
 node_modules
