@@ -8,7 +8,7 @@ const STATUS_CODE = ssh2.SFTP_STATUS_CODE;
 /*
 Commands:
 Start server: node ./testserver.js
-Upload file: sftp -P8022 root@127.0.0.1 <<< $(echo "put test.zip")
+Upload file: sftp -P8022 root@127.0.0.1 <<< $(echo "put /path/to/file")
 
 Create host.key: ssh-keygen -t rsa -f ./host.key
 
